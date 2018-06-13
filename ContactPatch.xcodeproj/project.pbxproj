@@ -13,6 +13,7 @@
 		842EBBF720D0BA6D00AE75D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842EBBF620D0BA6D00AE75D6 /* Assets.xcassets */; };
 		842EBBFA20D0BA6D00AE75D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842EBBF820D0BA6D00AE75D6 /* LaunchScreen.storyboard */; };
 		842EBBFD20D0BA6E00AE75D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842EBBFC20D0BA6E00AE75D6 /* main.m */; };
+		847B608F20D0E4430018EFD5 /* loadContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847B608E20D0E4430018EFD5 /* loadContactsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		842EBBF920D0BA6D00AE75D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842EBBFB20D0BA6D00AE75D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842EBBFC20D0BA6E00AE75D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		847B608D20D0E4430018EFD5 /* loadContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loadContactsViewController.h; sourceTree = "<group>"; };
+		847B608E20D0E4430018EFD5 /* loadContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loadContactsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				842EBBF820D0BA6D00AE75D6 /* LaunchScreen.storyboard */,
 				842EBBFB20D0BA6D00AE75D6 /* Info.plist */,
 				842EBBFC20D0BA6E00AE75D6 /* main.m */,
+				847B608D20D0E4430018EFD5 /* loadContactsViewController.h */,
+				847B608E20D0E4430018EFD5 /* loadContactsViewController.m */,
 			);
 			path = ContactPatch;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				842EBBF220D0BA3F00AE75D6 /* ViewController.m in Sources */,
+				847B608F20D0E4430018EFD5 /* loadContactsViewController.m in Sources */,
 				842EBBFD20D0BA6E00AE75D6 /* main.m in Sources */,
 				842EBBEF20D0BA3F00AE75D6 /* AppDelegate.m in Sources */,
 			);
