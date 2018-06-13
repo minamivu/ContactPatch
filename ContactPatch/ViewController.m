@@ -24,6 +24,14 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)loadContacts:(id)sender {
+    
+}
 
+- (IBAction)openSavingContacts:(id)sender {
+}
+
+- (IBAction)aboutApp:(id)sender {
+}
 
 @end
